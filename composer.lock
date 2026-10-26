@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8ee67c6d5440b64a2b11de8f17379b26",
+    "content-hash": "58741bfb6c15751803dca1f9911553ff",
     "packages": [
         {
             "name": "brick/math",
@@ -6328,20 +6328,21 @@
         },
         {
             "name": "godfreysdragon/laravel-migration-review",
-            "version": "v0.1.1",
+            "version": "v0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/GodfreysDragon/laravel-migration-review.git",
-                "reference": "f09edf85a6e06ee75d61077602cc7b5210d8a93c"
+                "reference": "ddf0dfbd023e37026692b86ac334faf216894ab9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GodfreysDragon/laravel-migration-review/zipball/f09edf85a6e06ee75d61077602cc7b5210d8a93c",
-                "reference": "f09edf85a6e06ee75d61077602cc7b5210d8a93c",
+                "url": "https://api.github.com/repos/GodfreysDragon/laravel-migration-review/zipball/ddf0dfbd023e37026692b86ac334faf216894ab9",
+                "reference": "ddf0dfbd023e37026692b86ac334faf216894ab9",
                 "shasum": ""
             },
             "require": {
                 "anthropic-ai/sdk": "^0.54",
+                "ext-mbstring": "*",
                 "illuminate/console": "^12.0|^13.0",
                 "illuminate/database": "^12.0|^13.0",
                 "illuminate/support": "^12.0|^13.0",
@@ -6359,18 +6360,18 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "MigrationReview\\MigrationReviewServiceProvider"
+                        "GodfreysDragon\\MigrationReview\\MigrationReviewServiceProvider"
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "MigrationReview\\": "src/"
+                    "GodfreysDragon\\MigrationReview\\": "src/"
                 }
             },
             "autoload-dev": {
                 "psr-4": {
-                    "MigrationReview\\Tests\\": "tests/"
+                    "GodfreysDragon\\MigrationReview\\Tests\\": "tests/"
                 }
             },
             "scripts": {
@@ -6390,7 +6391,7 @@
             "authors": [
                 {
                     "name": "Cal Marusin",
-                    "email": "cal.marusin@gmail.com"
+                    "homepage": "https://github.com/GodfreysDragon"
                 }
             ],
             "description": "Catch dangerous Laravel migrations before they hit production: a static rule engine plus an optional Claude-powered review, as an Artisan command built for CI.",
@@ -6407,10 +6408,10 @@
                 "zero-downtime"
             ],
             "support": {
-                "source": "https://github.com/GodfreysDragon/laravel-migration-review/tree/v0.1.1",
+                "source": "https://github.com/GodfreysDragon/laravel-migration-review/tree/v0.2",
                 "issues": "https://github.com/GodfreysDragon/laravel-migration-review/issues"
             },
-            "time": "2026-10-25T23:34:04+00:00"
+            "time": "2026-10-26T12:50:52+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
