@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "58741bfb6c15751803dca1f9911553ff",
+    "content-hash": "5d0e3a61bbd1a7db19ca3723a3e2b720",
     "packages": [
         {
             "name": "brick/math",
@@ -6369,22 +6369,7 @@
                     "GodfreysDragon\\MigrationReview\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "GodfreysDragon\\MigrationReview\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "phpunit"
-                ],
-                "format": [
-                    "pint"
-                ],
-                "analyse": [
-                    "phpstan analyse --memory-limit=1G"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -6408,8 +6393,8 @@
                 "zero-downtime"
             ],
             "support": {
-                "source": "https://github.com/GodfreysDragon/laravel-migration-review/tree/v0.2",
-                "issues": "https://github.com/GodfreysDragon/laravel-migration-review/issues"
+                "issues": "https://github.com/GodfreysDragon/laravel-migration-review/issues",
+                "source": "https://github.com/GodfreysDragon/laravel-migration-review/tree/v0.2"
             },
             "time": "2026-10-26T12:50:52+00:00"
         },
