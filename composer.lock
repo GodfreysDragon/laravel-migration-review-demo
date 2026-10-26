@@ -6328,16 +6328,16 @@
         },
         {
             "name": "godfreysdragon/laravel-migration-review",
-            "version": "v0.2",
+            "version": "v0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/GodfreysDragon/laravel-migration-review.git",
-                "reference": "ddf0dfbd023e37026692b86ac334faf216894ab9"
+                "reference": "7b8adbcf99f8df8007cefb0347265370b515a426"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GodfreysDragon/laravel-migration-review/zipball/ddf0dfbd023e37026692b86ac334faf216894ab9",
-                "reference": "ddf0dfbd023e37026692b86ac334faf216894ab9",
+                "url": "https://api.github.com/repos/GodfreysDragon/laravel-migration-review/zipball/7b8adbcf99f8df8007cefb0347265370b515a426",
+                "reference": "7b8adbcf99f8df8007cefb0347265370b515a426",
                 "shasum": ""
             },
             "require": {
@@ -6394,9 +6394,9 @@
             ],
             "support": {
                 "issues": "https://github.com/GodfreysDragon/laravel-migration-review/issues",
-                "source": "https://github.com/GodfreysDragon/laravel-migration-review/tree/v0.2"
+                "source": "https://github.com/GodfreysDragon/laravel-migration-review/tree/v0.2.1"
             },
-            "time": "2026-10-26T12:50:52+00:00"
+            "time": "2026-10-26T17:43:14+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
