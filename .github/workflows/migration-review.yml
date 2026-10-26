@@ -1,0 +1,22 @@
+name: Migration review
+
+on:
+  pull_request:
+    paths: ['database/migrations/**']
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+      - run: composer install --no-interaction --prefer-dist
+      - run: cp .env.example .env && php artisan key:generate
+      - name: Review changed migrations
+        run: |
+          FILES=$(git diff --name-only --diff-filter=AM origin/${{ github.base_ref }}... -- database/migrations)
+          [ -z "$FILES" ] || php artisan migrate:review $FILES --format=github --fail-on=high
